@@ -1,36 +1,36 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", serif;
 }
 
 body {
-    background-color: #f9f9f9;
-    overflow-y: hidden;
-  }
-  .navbar {
-    border-bottom: 1px solid #e0e0e0;
-  }
-  .circle {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: inline-block;
-  }
-  .hero-section {
-    padding: 4rem 0;
-  }
-  .profile-img img {
-    border-radius: 0.5rem;
-  }
-  .highlight {
-    color: #ff5722;
-  }
-  .btn-custom {
-    background-color: #ff5722;
-    color: white;
-    border: none;
-  }
-  .btn-custom:hover {
-    background-color: #e64a19;
-  }
+  background-color: #f9f9f9;
+  overflow-y: hidden;
+  position: relative;
+}
+.navbar {
+  border-bottom: 1px solid #e0e0e0;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.hero-section {
+  padding: 4rem 0;
+}
+.profile-img img {
+  border-radius: 0.5rem;
+}
+.btn-custom {
+  display: flex;
+  align-items: center;
+  color: white;
+  border: none;
+}
+.btn-custom:hover {
+  background-color: #e64a19;
+}

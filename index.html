@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UI/UX Machine Test</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -14,40 +21,65 @@
 
     <nav class="navbar navbar-expand-lg bg-white px-4">
         <div class="container-fluid">
-            <a class="navbar-brand fw-bold d-flex align-items-center" href="#">MUSTAFA SHEIKH<span
-                    class="circle bg-danger ms-2"></span></a>
+            <a class="navbar-brand fw-bold d-flex align-items-center"
+                style="color: #30353D; font-weight: 800;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"
+                href="#">MUSTAFA SHEIKH
+                <span class="circle bg-danger ms-2"></span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Work</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Journal</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Studio ↗</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Mentoring ↗</a></li>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link fw-bold px-3" href="#" style="color: #30353D;"><span style="font-weight: 800;">WORK</span></a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold px-3" href="#" style="color: #30353D;"><span style="font-weight: 800;">JOURNAL</span></a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold px-3" href="#" style="color: #30353D;"><span style="font-weight: 800;">STUDIO</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold px-3" href="#" style="color: #30353D;"><span style="font-weight: 800;">MENTORING</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a></li>
                 </ul>
-                <a href="#" class="btn btn-custom ms-3">Get In Touch</a>
+                <a href="#" class="btn btn-custom fw-bold py-1 px-5 ms-3 fw-bolder"
+                    style="color: white;background-color: #E54927;">
+                    <i class="bi bi-envelope-open me-2"></i>Get In Touch</a>
             </div>
         </div>
     </nav>
 
+    <div class="position-absolute bg-black text-white d-flex justify-content-center align-items-center"
+    style="width: 50px; height: 190px; right: 0; top: 50%; transform: translateY(-50%);">
+    <span class="fs-1 pt-3 position-absolute top-0 fs-4" style="font-weight: 800;">W.</span>
+    <span class="position-absolute bottom-0 text-nowrap pt-3"
+        style="writing-mode: vertical-lr; transform: rotate(180deg); font-size: 22px;">
+        Nominee
+    </span>
+</div>
+
     <div class="container hero-section">
+
         <div class="row d-flex justify-content-between align-items-center">
             <div class="col-md-4 text-center text-md-start">
-              <div class="profile-img">
-                <img src="https://res.cloudinary.com/sundeck-cloud/image/upload/v1709434680/mustafa-sheikh-colenso-bbdo-2_mroon7.jpg"
-                     alt="Profile Picture" class="img-fluid">
-              </div>
+                <div class="profile-img rounded-lg">
+                    <img src="https://res.cloudinary.com/sundeck-cloud/image/upload/v1709434680/mustafa-sheikh-colenso-bbdo-2_mroon7.jpg"
+                        alt="Profile Picture" class="img-fluid" style="border-radius: 5%;">
+                </div>
             </div>
             <div class="col-md-7 ms-md-4">
-              <h1 class="fw-bold">Renaissance man against the cult of <span class="highlight">specialisation</span></h1>
-              <p class="mt-4">In the last decade of living between countries, I worked across a diverse range of mediums and project types, in both digital and traditional, client-side and agency roles.</p>
-              <p>On weekends, I write or film about these work experiences, learnings, and some other stories in my Journal.</p>
-              <a href="#" class="btn btn-custom mt-3">See my Journal</a>
+                <h1 class="fw-bold" style="color: #30353D;">Renaissance man against the cult of <span class="highlight"
+                        style="color: #E54927;">specialisation</span>
+                </h1>
+                <p class="mt-4 fs-5" style="font-weight: 600; color: #30353D;">In the last decade of living between
+                    countries, I worked across a diverse range of
+                    mediums and project types, in both digital and traditional, client-side and agency roles.</p>
+                <p class="fs-5" style="font-weight: 600; color: #30353D;">On weekends, I write or film about these work
+                    experiences, learnings, and some other stories in my
+                    Journal.</p>
+                <h1 href="#" class="btn btn-custom mt-3 px-4 py-2 fs-5"
+                    style="background-color: #30353D;color: white;font-weight: 500;">See my Journal</h1>
             </div>
-          </div>
-          
+        </div>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
